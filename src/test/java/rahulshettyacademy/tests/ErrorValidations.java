@@ -20,7 +20,7 @@ public class ErrorValidations extends BaseTest {
 	@Test(groups = { "ErrorHandling" }, retryAnalyzer = rahulshettyacademy.TestComponents.Retry.class)
 	public void LoginErrorValidations() throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
-
+     //run tests
 		String productname = "ZARA COAT 3";
 		landinpage.loginapplication("balavel@gmail.com", "!228Visarcotva");
 		Assert.assertEquals("Incorrect email or password.", landinpage.getErrorMessage());
